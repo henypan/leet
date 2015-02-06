@@ -43,10 +43,8 @@ public class MyStackTest
         
         String result1 = myStack.pop();
         assertEquals("333", result1);
-        System.out.println(result1);
         
         String result2 = myStack.peep();
         assertEquals("Two", result2);
-        System.out.println(result2);
     }
 }
