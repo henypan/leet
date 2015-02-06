@@ -12,11 +12,8 @@ import asssaver.mydatastructure.internal.MyMap;
  * <p>
  * Tests class {@link MyMap}.
  * </p>
- * <p>
- * Copyright &copy 2014 Cerner Corporation
- * </p>
  *
- * @author C09471
+ * @author Henry Pan
  */
 public class MyMapTest
 {

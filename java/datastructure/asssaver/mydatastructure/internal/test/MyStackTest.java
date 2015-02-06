@@ -12,11 +12,8 @@ import asssaver.mydatastructure.internal.MyStack;
  * <p>
  * Tests methods in {@link MyStack}.
  * </p>
- * <p>
- * Copyright &copy 2014 Cerner Corporation
- * </p>
  * 
- * @author C09471
+ * @author Henry Pan
  */
 @SuppressWarnings("nls")
 public class MyStackTest

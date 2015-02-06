@@ -10,11 +10,8 @@ import asssaver.mydatastructure.internal.MyList;
  * <p>
  * Tests methods of {@link MyList}.
  * </p>
- * <p>
- * Copyright &copy 2014 Cerner Corporation
- * </p>
  *
- * @author C09471
+ * @author Henry Pan
  */
 public class MyListTest
 {

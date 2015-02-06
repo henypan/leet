@@ -6,11 +6,8 @@ import java.util.Arrays;
  * <p>
  * Internal implementation of ArrayList structure
  * </p>
- * <p>
- * Copyright &copy 2014 Cerner Corporation
- * </p>
  * 
- * @author C09471
+ * @author Henry Pan
  * @param <E>
  *            E type
  */
