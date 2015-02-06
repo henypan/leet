@@ -1,2 +1,0 @@
-# ass-saver
-leetcode solutions
