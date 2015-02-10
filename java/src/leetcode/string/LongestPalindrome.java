@@ -1,5 +1,7 @@
 package leetcode.string;
 
+import org.junit.Test;
+
 public class LongestPalindrome
 {
  // find the longest palindrome in a string 
@@ -35,6 +37,6 @@ public class LongestPalindrome
             R++;
         }
 
-        return R - L + 1;
+        return R - L - 1;
     }
 }
