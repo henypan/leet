@@ -32,7 +32,7 @@ public class ReverseWords
     public void testReverseWords()
     {
         ReverseWords rw = new ReverseWords();
-        String keyin = "Pan loves ShuoShuo";  //$NON-NLS-1$
+        String keyin = "Pan loves Shuo Shuo";  //$NON-NLS-1$
         System.out.println(rw.reverseWords(keyin));
     }
 }

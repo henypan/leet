@@ -1,6 +1,7 @@
 package leetcode.math;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
@@ -49,5 +50,16 @@ public class TestMath
         int[] digits3 = {9, 9, 9, 9, 9, 9};
         int[] expectedDigits3 = {1, 0, 0, 0, 0, 0, 0};
         assertEquals(Arrays.toString(expectedDigits3), Arrays.toString(po.plusOne(digits3)));
+    }
+    
+    /**
+     * Tests leetcode {@link IsPalindromeNumber}.
+     */
+    @Test
+    public void testIsPalindromeNumber()
+    {
+        IsPalindromeNumber ip = new IsPalindromeNumber();
+        assertTrue(ip.isPalindrome(12321));
+        assertFalse(ip.isPalindrome(4555654));
     }
 }
