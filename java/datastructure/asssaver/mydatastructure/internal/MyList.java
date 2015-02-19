@@ -11,6 +11,7 @@ import java.util.Arrays;
  * @param <E>
  *            E type
  */
+//TEST By ALEX Q
 public class MyList<E>
 {
     private int size = 0;
