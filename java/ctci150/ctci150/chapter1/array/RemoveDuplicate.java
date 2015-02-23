@@ -49,7 +49,7 @@ public class RemoveDuplicate
         String input = "aabdecf";
         char[] resultStr = input.toCharArray();
 
-        // java is pass by value, here the value of the input for the #removeDuplcate which is a
+        // java is "pass by value", here the value of the input for the #removeDuplcate is a
         // reference to a char array.
         rd.removeDuplicate(resultStr);
         System.out.println(resultStr);
