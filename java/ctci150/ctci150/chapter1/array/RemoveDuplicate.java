@@ -22,11 +22,14 @@ public class RemoveDuplicate
         
         int tail = 1;
         
+        // we need to keep track of each letter we encountered.
         for (int i = 1; i < str.length; i++)
         {
             int j;
             for (j = 0; j < tail; j++)
             {
+                // The moment any letter repeats, we need to skip it and copy other non-duplicate
+                // letter at the next loop.
                 if (str[j] == str[i])
                     break;
             }
@@ -45,6 +48,9 @@ public class RemoveDuplicate
         RemoveDuplicate rd = new RemoveDuplicate();
         String input = "aabdecf";
         char[] resultStr = input.toCharArray();
+
+        // java is pass by value, here the value of the input for the #removeDuplcate which is a
+        // reference to a char array.
         rd.removeDuplicate(resultStr);
         System.out.println(resultStr);
     }
