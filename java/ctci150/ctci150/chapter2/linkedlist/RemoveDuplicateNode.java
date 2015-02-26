@@ -23,7 +23,6 @@ public class RemoveDuplicateNode
                 runner = runner.next;
             }
             
-            
             if (runner == current)
             {
                 previous = current;

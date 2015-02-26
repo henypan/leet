@@ -12,7 +12,7 @@ package ctci150.chapter2.linkedlist;
  */
 public class Node
 {
-    Node next = null;
+    public Node next = null;
     int data;
     
     public Node(int d)

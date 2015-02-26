@@ -2,11 +2,12 @@ package leetcode.linkedlist;
 
 public class AddTwoNumbers
 {
-    //TODO: this code hasn't been tested
+    // TODO: this code hasn't been tested
     public ListNode addTwoNumbers(ListNode l1, ListNode l2)
     {
         ListNode dummyHead = new ListNode(0);
-        // dummyHead references to the head of the new list which is used to store the result linked list.
+        // dummyHead references to the head of the new list which is used to store the result linked
+        // list.
         ListNode curr = dummyHead;
         int carry = 0;
         while (l1 != null && l2 != null)
