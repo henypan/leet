@@ -29,13 +29,13 @@ public class ValidateBST
     
     private boolean isSubtreeLessThan(TreeNode treeNode, int val)
     {
-        //TODO
+        //TODO - you have to put the implementation here
         return false;
     }
     
     private boolean isSubtreeGreaterThan(TreeNode treeNode, int val)
     {
-        //TODO
+        //TODO - you have to put the implementation here
         return false;
     }
 }
